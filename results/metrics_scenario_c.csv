@@ -1,0 +1,5 @@
+environment,concurrency,p50_ms,p95_ms,p99_ms,average_ms,slowest_ms,status,file
+EC2,50,937.6999999999999,1144.4,1210.3999999999999,887.5,1229.9,{'200': 200},scenario-c-ec2.txt
+Fargate,50,5115.3,5779.8,6129.5,4827.0,6209.2,{'200': 200},scenario-c-fargate.txt
+Lambda container,10,93.3,1052.0,1245.4,146.6,1282.7,{'200': 200},scenario-c-lambda-container.txt
+Lambda zip,10,97.69999999999999,1301.8000000000002,1462.8000000000002,166.1,1559.5,{'200': 200},scenario-c-lambda-zip.txt

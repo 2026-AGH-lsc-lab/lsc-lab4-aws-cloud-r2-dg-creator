@@ -1,0 +1,9 @@
+environment,concurrency,p50_ms,p95_ms,p99_ms,average_ms,slowest_ms,tail_instability,status,file
+EC2,10,221.1798,292.8485,329.4275,220.5944,375.5832,no,{'200': 500},scenario-b-ec2-c10.txt
+EC2,50,1004.0,1249.6000000000001,1332.7,967.1999999999999,1390.1,no,{'200': 500},scenario-b-ec2-c50.txt
+Fargate,10,1091.0,1490.8,1711.6,1077.2,2099.2000000000003,no,{'200': 500},scenario-b-fargate-c10.txt
+Fargate,50,5399.9,5898.4,6094.2,5187.700000000001,6194.5,no,{'200': 500},scenario-b-fargate-c50.txt
+Lambda container,10,83.0924,102.2565,136.9217,87.9371,775.6556,no,{'200': 500},scenario-b-lambda-container-c10.txt
+Lambda container,5,84.0553,103.233,134.7803,86.3211,148.0624,no,{'200': 500},scenario-b-lambda-container-c5.txt
+Lambda zip,10,86.4622,105.8355,140.0492,89.2995,196.4268,no,{'200': 500},scenario-b-lambda-zip-c10.txt
+Lambda zip,5,91.5123,111.8526,147.3607,91.7713,169.1642,no,{'200': 500},scenario-b-lambda-zip-c5.txt
